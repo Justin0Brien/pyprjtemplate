@@ -1,0 +1,33 @@
+{
+    "full_name": "Justin O'Brien",
+    "email": "justin_obrien@me.com",
+    "project_name": "My Awesome Project",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_short_description": "A short description of the project.",
+    "version": "0.1.0",
+    "github_username": "Justin0Brien",
+    "license": [
+        "MIT",
+        "BSD-3-Clause",
+        "Apache-2.0",
+        "GPL-3.0-or-later",
+        "Proprietary"
+    ],
+    "use_github_actions": ["y", "n"],
+    "use_pre_commit_hooks": ["y", "n"],
+    "use_docker": ["y", "n"],
+    "python_interpreter": [
+        "python3.11",
+        "python3.10",
+        "python3.9",
+        "python3.8"
+    ],
+    "open_source_license": "MIT",
+    "create_author_file": "y",
+    "include_cli": ["y", "n"],
+    "include_tests": ["y", "n"],
+    "include_docs": ["y", "n"],
+    "timezone": "UTC",
+    "year": "{{ cookiecutter._current_year }}",
+    "_current_year": "{% now 'utc', '%Y' %}"
+}

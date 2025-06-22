@@ -1,0 +1,11 @@
+{
+  "name": "{{ cookiecutter.project_slug }}",
+  "version": "{{ cookiecutter.version }}",
+  "description": "{{ cookiecutter.project_short_description }}",
+  "main": "static/main.js",
+  "scripts": {
+    "start": "echo 'Add your start script here'"
+  },
+  "author": "{{ cookiecutter.full_name }}",
+  "license": "{{ cookiecutter.open_source_license }}"
+}
