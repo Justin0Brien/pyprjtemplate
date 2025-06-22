@@ -27,7 +27,5 @@
     "include_cli": ["y", "n"],
     "include_tests": ["y", "n"],
     "include_docs": ["y", "n"],
-    "timezone": "UTC",
-    "year": "{{ cookiecutter._current_year }}",
-    "_current_year": "{% now 'utc', '%Y' %}"
+    "timezone": "UTC"
 }
