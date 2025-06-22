@@ -1,1 +1,11 @@
 # Add your project dependencies here
+
+rich  # For beautiful rich text formatting in the terminal
+ollama  # Python client for interacting with local Ollama LLM models
+requests  # For making HTTP requests easily
+python-dotenv  # For loading environment variables from .env files
+pytest  # For running tests
+black  # Code formatter for consistent Python style
+flake8  # Linting tool to check code quality
+fastapi  # For building high-performance APIs with Python
+uvicorn  # ASGI server for running FastAPI apps
