@@ -81,4 +81,4 @@ This project is licensed under the {{ cookiecutter.open_source_license }} Licens
 
 - Author: {{ cookiecutter.full_name }}
 - Email: {{ cookiecutter.email }}
-- GitHub: [{{ cookiecutter.github_username }}](<https://github.com/{{> cookiecutter.github_username }})
+- GitHub: [{{ cookiecutter.github_username }}](<https://github.com/{{ cookiecutter.github_username }})
